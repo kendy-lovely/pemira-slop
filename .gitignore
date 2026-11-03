@@ -1,0 +1,49 @@
+node_modules
+dist
+.cache
+
+# === Emacs Core Temporary Files ===
+# Backup files (e.g., filename~)
+*~
+
+# Auto-save files (e.g., #filename#)
+\#*\#
+
+# Lock files (e.g., .#filename)
+.\#*
+
+# Auto-save listings and session information
+auto-save-list/
+/.emacs.desktop
+/.emacs.desktop.lock
+tramp
+
+# === Compiled Lisp ===
+# Byte-compiled Emacs Lisp code
+*.elc
+
+# === Package Managers & Plugins ===
+# ELPA packages 
+elpa/
+
+# Cask dependencies and builds
+.cask/
+dist/
+
+# Flymake and Flycheck syntax check buffers
+*_flymake.*
+flycheck_*.el
+
+# Projectile project caches
+.projectile
+
+# Undo-tree history maps
+*.~undo-tree~
+
+# === Text & Formatting Modes ===
+# Org-mode tracking and archives
+.org-id-locations
+*_archive
+
+# AUCTeX auto folders
+/auto/
